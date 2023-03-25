@@ -3,10 +3,30 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Logo from "../../assets/images/logo.png";
+
 function Header() {
+  // const MenuScroll = () => {
+  //   window.addEventListener("scroll", (event) => {
+  //     if ${window.scrollTop} >=1 && 'scroll' : ""
+  //     //output.textContent = `scrollTop: ${window.scrollTop}`;
+  //   });
+  //   window.scroll(function () {
+  //     if (this.scrollTop() >= 20) {
+  //       // If page is scrolled more than 50px
+  //       ".header-style2".addClass("scroll");
+  //       "#return-to-top".fadeIn(200); // Fade in the arrow
+  //     } else {
+  //       ".header-style2".removeClass("scroll");
+  //       "#return-to-top".fadeOut(200); // Else fade out the arrow
+  //     }
+  //   });
+  // };
+  //const scroller = document.querySelector("#scroller");
+  //const output = document.querySelector("#output");
+
   return (
     <>
-      <section className="header-style2">
+      <section className="header-style2 {}">
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand to="/">

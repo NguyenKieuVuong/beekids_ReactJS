@@ -18,7 +18,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/website_beekids_ReactJS" element={<App />}>
+        <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="cuoc-thi" element={<Contests />} />
           <Route path="khoa-hoc" element={<CourseList />} />
