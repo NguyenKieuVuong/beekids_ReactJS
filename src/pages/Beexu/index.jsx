@@ -1,1 +1,1 @@
-export { default } from "./BeexuList";
+export { default } from "./Beexu";

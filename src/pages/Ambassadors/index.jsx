@@ -1,1 +1,1 @@
-export { default } from "./AmbassadorsList";
+export { default } from "./Ambassadors";

@@ -2,18 +2,18 @@ function Distinctive() {
   return (
     <section id="distinctive">
       <div className="container -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center animate__animated animate__fadeInDown">
           <div className="title-header text-uppercase">lợi thế cạnh tranh</div>
           <h4 className="title-title">
             Điểm khác biệt tạo nên <b>Beekids</b>
           </h4>
         </div>
         <div className="row">
-          <div className="col-md-4 order-md-1">
+          <div className="col-md-4 animate__animated animate__fadeInDown order-md-1">
             <div className="distinctive-item --style-1">
               <div className="distinctive-item__logo">
                 <img
-                  src={require("../../assets/images/Logo-Bkids-full.png")}
+                  src={require("../../../assets/images/Logo-Bkids-full.png")}
                   alt=""
                 />
               </div>
@@ -24,7 +24,7 @@ function Distinctive() {
                 <div className="text-top-item">
                   <div className="text-top-item__image">
                     <img
-                      src={require("../../assets/images/icon-star-1.png")}
+                      src={require("../../../assets/images/icon-star-1.png")}
                       alt=""
                     />
                   </div>
@@ -35,7 +35,7 @@ function Distinctive() {
                 <div className="text-top-item">
                   <div className="text-top-item__image">
                     <img
-                      src={require("../../assets/images/icon-star-1.png")}
+                      src={require("../../../assets/images/icon-star-1.png")}
                       alt=""
                     />
                   </div>
@@ -46,7 +46,7 @@ function Distinctive() {
                 <div className="text-top-item">
                   <div className="text-top-item__image">
                     <img
-                      src={require("../../assets/images/icon-star-1.png")}
+                      src={require("../../../assets/images/icon-star-1.png")}
                       alt=""
                     />
                   </div>
@@ -60,7 +60,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -72,7 +72,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -83,7 +83,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -94,7 +94,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -105,7 +105,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -117,7 +117,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -128,11 +128,11 @@ function Distinctive() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 order-md-0">
+          <div className="col-md-4 animate__animated animate__fadeInDown order-md-0">
             <div className="distinctive-item">
               <div className="distinctive-item__logo">
                 <img
-                  src={require("../../assets/images/Logo-monkey-full.png")}
+                  src={require("../../../assets/images/Logo-monkey-full.png")}
                   alt=""
                 />
               </div>
@@ -154,7 +154,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -166,7 +166,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -177,7 +177,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -188,7 +188,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -199,7 +199,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -211,7 +211,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -223,11 +223,11 @@ function Distinctive() {
             </div>
           </div>
 
-          <div className="col-md-4 order-md-2">
+          <div className="col-md-4 animate__animated animate__fadeInDown order-md-2">
             <div className="distinctive-item">
               <div className="distinctive-item__logo">
                 <img
-                  src={require("../../assets/images/Logo-kidsup-full.png")}
+                  src={require("../../../assets/images/Logo-kidsup-full.png")}
                   alt=""
                 />
               </div>
@@ -249,7 +249,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>
@@ -261,7 +261,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -272,7 +272,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -283,7 +283,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -294,7 +294,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-close-1.png")}
+                      src={require("../../../assets/images/icon-close-1.png")}
                       alt=""
                     />
                   </div>
@@ -305,7 +305,7 @@ function Distinctive() {
                 <div className="content-item">
                   <div className="content-item__image">
                     <img
-                      src={require("../../assets/images/icon-check-1.png")}
+                      src={require("../../../assets/images/icon-check-1.png")}
                       alt=""
                     />
                   </div>

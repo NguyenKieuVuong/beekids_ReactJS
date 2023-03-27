@@ -12,21 +12,27 @@ function Result() {
         </div>
         <div className="row mt-5 mb-5">
           <div className="col">
-            <img src={require("../../assets/images/img-result-1.png")} alt="" />
-          </div>
-          <div className="col">
-            <img src={require("../../assets/images/img-result-2.png")} alt="" />
+            <img
+              src={require("../../../assets/images/img-result-1.png")}
+              alt=""
+            />
           </div>
           <div className="col">
             <img
-              src={require("../../assets/images/img-result-3.png")}
+              src={require("../../../assets/images/img-result-2.png")}
+              alt=""
+            />
+          </div>
+          <div className="col">
+            <img
+              src={require("../../../assets/images/img-result-3.png")}
               alt=""
               className="p-md-2"
             />
           </div>
           <div className="col">
             <img
-              src={require("../../assets/images/img-result-4.png")}
+              src={require("../../../assets/images/img-result-4.png")}
               alt=""
               className="p-md-2"
             />
@@ -45,7 +51,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -56,7 +62,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -65,7 +71,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -76,7 +82,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -95,7 +101,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -104,7 +110,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -113,7 +119,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -124,7 +130,7 @@ function Result() {
               <div className="target-customers__item">
                 <div className="_image">
                   <img
-                    src={require("../../assets/images/icon-arrow_small-1.png")}
+                    src={require("../../../assets/images/icon-arrow_small-1.png")}
                     alt=""
                   />
                 </div>
@@ -144,7 +150,7 @@ function Result() {
           <div className="col-md-6 col-lg-4 wow fadeInDown">
             <div className="roadmap">
               <img
-                src={require("../../assets/images/bg-roadmap.png")}
+                src={require("../../../assets/images/bg-roadmap.png")}
                 alt=""
                 className="roadmap__bg"
               />
@@ -166,7 +172,7 @@ function Result() {
           <div className="col-md-6 col-lg-4 wow fadeInDown">
             <div className="roadmap">
               <img
-                src={require("../../assets/images/bg-roadmap.png")}
+                src={require("../../../assets/images/bg-roadmap.png")}
                 alt=""
                 className="roadmap__bg"
               />
@@ -192,7 +198,7 @@ function Result() {
           <div className="col-md-6 col-lg-4 wow fadeInDown">
             <div className="roadmap">
               <img
-                src={require("../../assets/images/bg-roadmap.png")}
+                src={require("../../../assets/images/bg-roadmap.png")}
                 alt=""
                 className="roadmap__bg"
               />

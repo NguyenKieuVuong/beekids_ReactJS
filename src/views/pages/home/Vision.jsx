@@ -1,12 +1,12 @@
-import stick from "../../assets/images/img-vision-stick.png";
-import image from "../../assets/images/img-vision.png";
+import stick from "../../../assets/images/img-vision-stick.png";
+import image from "../../../assets/images/img-vision.png";
 function Vision() {
   return (
     <section id="vision" className="">
       <div className="container -wide">
         <div className="row justify-content-center">
           <div className="col-lg-9">
-            <div className="block-title text-center">
+            <div className="block-title text-center animate__animated animate__fadeInDown">
               <div className="title-header">TẦM NHÌN VÀ KHÁT VỌNG</div>
               <h4 className="title-title">
                 Kết nối và hỗ trợ phát triển
@@ -23,8 +23,12 @@ function Vision() {
           </div>
         </div>
       </div>
-      <img src={stick} className="img-stick" />
-      <img src={image} className="img-bottom" />
+      <img src={stick} className="img-stick" alt="" />
+      <img
+        src={image}
+        className="img-bottom animate__animated animate__fadeInDown"
+        alt=""
+      />
     </section>
   );
 }

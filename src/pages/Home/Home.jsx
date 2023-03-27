@@ -1,17 +1,17 @@
 import React from "react";
 
-import Advantage from "./Advantage";
-import CourseFavorite from "./CourseFavorite";
-import Distinctive from "./Distinctive";
-import BannerHome from "../../components/banner/BannerHome";
-import Reality from "./Reality";
-import Result from "./Result";
+import Advantage from "../../views/pages/home/Advantage";
+import CourseFavorite from "../../views/pages/home/CourseFavorite";
+import Distinctive from "../../views/pages/home/Distinctive";
+import BannerHome from "../../views/pages/home/BannerHome";
+import Reality from "../../views/pages/home/Reality";
+import Result from "../../views/pages/home/Result";
 import ReviewHome from "../../components/Reviews/ReviewHome";
-import SolutionForChild from "./SolutionForChild";
-import SolutionGamification from "./SolutionGamification";
-import Teams from "./Teams";
-import Vision from "./Vision";
-import Wish from "./Wish";
+import SolutionForChild from "../../views/pages/home/SolutionForChild";
+import SolutionGamification from "../../views/pages/home/SolutionGamification";
+import Teams from "../../views/pages/home/Teams";
+import Vision from "../../views/pages/home/Vision";
+import Wish from "../../views/pages/home/Wish";
 function Home() {
   return (
     <>

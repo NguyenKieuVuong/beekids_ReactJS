@@ -35,7 +35,7 @@ function CourseFavorite() {
       <div className="container -wide">
         <div className="row">
           <div className="col-12 col-md-10 offset-md-1">
-            <div className="block-title text-center">
+            <div className="block-title text-center animate__animated animate__fadeInDown">
               <div className="title-header text-uppercase">Khóa học</div>
               <h4 className="title-title">
                 CÁC KHÓA HỌC HÀNG ĐẦU DÀNH CHO TRẺ
@@ -44,24 +44,24 @@ function CourseFavorite() {
           </div>
         </div>
       </div>
-      <div id="slide-course">
+      <div id="slide-course" className="animate__animated animate__fadeInDown">
         <Slider {...SlideCourse}>
           <div className="image">
-            <img src={require("../../assets/images/course-1.png")} alt="" />
+            <img src={require("../../../assets/images/course-1.png")} alt="" />
           </div>
           <div className="image">
-            <img src={require("../../assets/images/course-2.png")} alt="" />
+            <img src={require("../../../assets/images/course-2.png")} alt="" />
           </div>
           <div className="image">
-            <img src={require("../../assets/images/course-3.png")} alt="" />
+            <img src={require("../../../assets/images/course-3.png")} alt="" />
           </div>
           <div className="image">
-            <img src={require("../../assets/images/course-4.png")} alt="" />
+            <img src={require("../../../assets/images/course-4.png")} alt="" />
           </div>
         </Slider>
       </div>
 
-      <div className="text-center mt-5 wow fadeInDown">
+      <div className="text-center mt-5 animate__animated animate__fadeInDown">
         <button type="button" className="btn btn-bigsize btn-beekids">
           Khám phá ngay
         </button>

@@ -1,31 +1,34 @@
-function BeexuList() {
+import { Link } from "react-router-dom";
+
+function Beexu() {
   return (
     <>
-      <section id="section-slide-beexu" class="-bg-img-11">
-        <div class="txt-header">
-          <h3 class="text-center">CÁC GÓI BEEXU</h3>
-          <p class="text-center">
+      <section id="section-slide-beexu" className="-bg-img-11">
+        <div className="txt-header">
+          <h3 className="text-center">CÁC GÓI BEEXU</h3>
+          <p className="text-center">
             Hãy lựa chọn các gói Beexu thích hợp cho nhu cầu sử dụng của bạn
           </p>
         </div>
 
-        <div class="block_slide-shop">
-          <div class="container -wide">
-            <div id="slide-shop-beexu" class="owl-carousel owl-theme">
-              <div class="item">
-                <div class="row align-items-center ">
-                  <div class="col-lg-7 col-xl-8">
+        <div className="block_slide-shop">
+          <div className="container -wide">
+            <div id="slide-shop-beexu" className="owl-carousel owl-theme">
+              <div className="item">
+                <div className="row align-items-center ">
+                  <div className="col-lg-7 col-xl-8">
                     <img
                       src="https://api.beekids.edu.vn/trainings/paths/icons/60cdc5973691d40036af5a7c/RmlqwRjp.png"
-                      class="img-course"
+                      className="img-course"
+                      alt=""
                     />
                   </div>
-                  <div class="col-lg-5 col-xl-4">
-                    <div class="block-info-course">
-                      <div class="block-main">
-                        <div class="block-row info">
-                          <div class="sub-title">BEEXU dùng để</div>
-                          <p class="sumary">
+                  <div className="col-lg-5 col-xl-4">
+                    <div className="block-info-course">
+                      <div className="block-main">
+                        <div className="block-row info">
+                          <div className="sub-title">BEEXU dùng để</div>
+                          <p className="sumary">
                             Hãy lựa chọn giải pháp phù hợp với nhu cầu của bạn
                             và dùng thử miễn phí trong vòng 7 ngày. Hãy lựa chọn
                             giải pháp phù hợp với nhu cầu của bạn và dùng thử
@@ -46,20 +49,21 @@ function BeexuList() {
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="row align-items-center ">
-                  <div class="col-lg-7 col-xl-8">
+              <div className="item">
+                <div className="row align-items-center ">
+                  <div className="col-lg-7 col-xl-8">
                     <img
                       src="https://api.beekids.edu.vn/trainings/paths/icons/60cdc5973691d40036af5a7c/RmlqwRjp.png"
-                      class="img-course"
+                      className="img-course"
+                      alt=""
                     />
                   </div>
-                  <div class="col-lg-5 col-xl-4">
-                    <div class="block-info-course">
-                      <div class="block-main">
-                        <div class="block-row info">
-                          <div class="sub-title">BEEXU dùng để</div>
-                          <p class="sumary">
+                  <div className="col-lg-5 col-xl-4">
+                    <div className="block-info-course">
+                      <div className="block-main">
+                        <div className="block-row info">
+                          <div className="sub-title">BEEXU dùng để</div>
+                          <p className="sumary">
                             Hãy lựa chọn giải pháp phù hợp với nhu cầu của bạn
                             và dùng thử miễn phí trong vòng 7 ngày. Hãy lựa chọn
                             giải pháp phù hợp với nhu cầu của bạn và dùng thử
@@ -85,58 +89,66 @@ function BeexuList() {
         </div>
       </section>
       <section id="section-contest">
-        <div class="container -wide">
-          <div class="block-filter">
-            <div class="form-row">
-              <div class="col-md-6 col-lg-4 col-xl-4 offset-lg-8 offset-md-6">
-                <div class="input-group input-group-beekids">
+        <div className="container -wide">
+          <div className="block-filter">
+            <div className="form-row">
+              <div className="col-md-6 col-lg-4 col-xl-4 offset-lg-8 offset-md-6">
+                <div className="input-group input-group-beekids">
                   <input
                     id="txtKeySearchShop"
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Nhập tên gói Beexu"
                   />
-                  <div class="input-group-append">
+                  <div className="input-group-append">
                     <button
-                      class="btn btn-outline-secondary disabled"
+                      className="btn btn-outline-secondary disabled"
                       type="button"
                     >
-                      <i class="fa fa-search"></i>
+                      <i className="fa fa-search"></i>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 col-lg-4 col-xl-4">
-              <div class="block-card product">
-                <div class="block-main">
-                  <a href="#" class="block-row images">
-                    <img src="https://api.beekids.edu.vn/trainings/paths/icons/60cdc5973691d40036af5a7c/RmlqwRjp.png" />
-                    <span class="sale-off">
-                      <img src="/images/img-hotdeal.png" />
+          <div className="row">
+            <div className="col-md-6 col-lg-4 col-xl-4">
+              <div className="block-card product">
+                <div className="block-main">
+                  <Link to="/" className="block-row images">
+                    <img
+                      alt=""
+                      src="https://api.beekids.edu.vn/trainings/paths/icons/60cdc5973691d40036af5a7c/RmlqwRjp.png"
+                    />
+                    <span className="sale-off">
+                      <img
+                        src={require("../../assets/images/img-hotdeal.png")}
+                        alt=""
+                      />
                     </span>
-                  </a>
-                  <a href="#" class="block-row cate">
+                  </Link>
+                  <Link to="/" className="block-row cate">
                     Khóa học
-                  </a>
-                  <a href="#" class="block-row title">
+                  </Link>
+                  <Link to="/" className="block-row title">
                     Gói phát triển tư duy dành cho Mầm non và Tiền tiểu học
-                  </a>
-                  <div class="block-row class text-center"></div>
-                  <div class="block-row info_price">
-                    <div class="col-info_left">Giá</div>
-                    <div class="col-info_right ">
-                      <div class="price">
-                        <span class="price-old">100.000 đ</span>
-                        <span class="price-new">70.000 đ</span>
+                  </Link>
+                  <div className="block-row class text-center"></div>
+                  <div className="block-row info_price">
+                    <div className="col-info_left">Giá</div>
+                    <div className="col-info_right ">
+                      <div className="price">
+                        <span className="price-old">100.000 đ</span>
+                        <span className="price-new">70.000 đ</span>
                       </div>
                     </div>
                   </div>
-                  <div class="block-row info_class">
-                    <div class="col-info_left text-nowrap">Lớp tham gia</div>
-                    <div class="col-info_right">
+                  <div className="block-row info_class">
+                    <div className="col-info_left text-nowrap">
+                      Lớp tham gia
+                    </div>
+                    <div className="col-info_right">
                       <span>Lớp 1</span>
                       <span>Lớp 2</span>
                       <span>Lớp 3</span>
@@ -146,29 +158,25 @@ function BeexuList() {
                       <span>Lớp mầm</span>
                     </div>
                   </div>
-                  <div class="block-row button">
-                    <div class="form-row">
-                      <div class="col-6">
+                  <div className="block-row button">
+                    <div className="form-row">
+                      <div className="col-6">
                         <button
-                          id=""
-                          data-image="/images/logo-beekids.png"
-                          data-type="bkids_course"
                           data-toggle="modal"
                           type="button"
-                          class="btn btn-block btn-outline-dark"
+                          className="btn btn-block btn-outline-dark"
                         >
                           Thêm vào giỏ hàng
                         </button>
                       </div>
-                      <div class="col-6">
-                        <a
+                      <div className="col-6">
+                        <Link
                           id=""
-                          href="javascript:void(0)"
-                          data-image="/images/logo-beekids.png"
-                          class="btn btn-block btn-beekids"
+                          to="/"
+                          className="btn btn-block btn-beekids"
                         >
-                          <i class="fa fa-shopping-cart"></i>&nbsp;Mua ngay
-                        </a>
+                          <i className="fa fa-shopping-cart"></i>&nbsp;Mua ngay
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -178,49 +186,49 @@ function BeexuList() {
           </div>
         </div>
       </section>
-      <section id="section-faq-beexu" class="-bg-color-4">
-        <div class="container -wide">
-          <div class="block-list-logo">
-            <div class="row row-1">
-              <div class="col-6 col-md-4 col-lg-3">
-                <div class="block-logo">
-                  <div class="block-main">
+      <section id="section-faq-beexu" className="-bg-color-4">
+        <div className="container -wide">
+          <div className="block-list-logo">
+            <div className="row row-1">
+              <div className="col-6 col-md-4 col-lg-3">
+                <div className="block-logo">
+                  <div className="block-main">
                     <img
-                      class="img-thumb"
-                      src="/images/logo-bg-Dragold.png"
+                      className="img-thumb"
+                      src={require("../../assets/images/logo-bg-Dragold.png")}
                       alt="Dragold"
                     />
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
-                <div class="block-logo">
-                  <div class="block-main">
+              <div className="col-6 col-md-4 col-lg-3">
+                <div className="block-logo">
+                  <div className="block-main">
                     <img
-                      class="img-thumb"
-                      src="/images/logo-bg-Hifiveplus.png"
+                      className="img-thumb"
+                      src={require("../../assets/images/logo-bg-Hifiveplus.png")}
                       alt="Hifiveplus"
                     />
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
-                <div class="block-logo">
-                  <div class="block-main">
+              <div className="col-6 col-md-4 col-lg-3">
+                <div className="block-logo">
+                  <div className="block-main">
                     <img
-                      class="img-thumb"
-                      src="/images/logo-bg-MNP.png"
+                      className="img-thumb"
+                      src={require("../../assets/images/logo-bg-MNP.png")}
                       alt="MNP Edu"
                     />
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
-                <div class="block-logo">
-                  <div class="block-main">
+              <div className="col-6 col-md-4 col-lg-3">
+                <div className="block-logo">
+                  <div className="block-main">
                     <img
-                      class="img-thumb"
-                      src="/images/logo-bg-Sparta.png"
+                      className="img-thumb"
+                      src={require("../../assets/images/logo-bg-Sparta.png")}
                       alt="Sparta"
                     />
                   </div>
@@ -228,17 +236,17 @@ function BeexuList() {
               </div>
             </div>
           </div>
-          <h3 class="title-section text-center">
+          <h3 className="title-section text-center">
             Các câu hỏi liên quan tới gói Beexu
           </h3>
-          <div class="mt-lg-5 mt-3 row justify-content-center">
-            <div class="col-lg-8">
-              <div id="faq-beexu-tabs" class="tabs-vertical">
-                <div class="card-view">
-                  <div class="card-header" id="">
+          <div className="mt-lg-5 mt-3 row justify-content-center">
+            <div className="col-lg-8">
+              <div id="faq-beexu-tabs" className="tabs-vertical">
+                <div className="card-view">
+                  <div className="card-header" id="">
                     <button
                       type="button"
-                      class="tabs-click"
+                      className="tabs-click"
                       data-toggle="collapse"
                       data-target="#tabsvideo-1"
                       aria-expanded="true"
@@ -250,11 +258,11 @@ function BeexuList() {
 
                   <div
                     id="tabsvideo-1"
-                    class="collapse show"
+                    className="collapse show"
                     aria-labelledby="headingOne"
                     data-parent="#faq-beexu-tabs"
                   >
-                    <div class="card-body">
+                    <div className="card-body">
                       <p>
                         Giúp giáo viên không chuyên công nghệ thiết kế giảng dạy
                         và tương tác với Học viên hiệu quả tại Trường hoặc
@@ -263,11 +271,11 @@ function BeexuList() {
                     </div>
                   </div>
                 </div>
-                <div class="card-view">
-                  <div class="card-header" id="">
+                <div className="card-view">
+                  <div className="card-header" id="">
                     <button
                       type="button"
-                      class="tabs-click collapsed"
+                      className="tabs-click collapsed"
                       data-toggle="collapse"
                       data-target="#tabsvideo-2"
                       aria-expanded="false"
@@ -278,11 +286,11 @@ function BeexuList() {
                   </div>
                   <div
                     id="tabsvideo-2"
-                    class="collapse"
+                    className="collapse"
                     aria-labelledby="headingTwo"
                     data-parent="#faq-beexu-tabs"
                   >
-                    <div class="card-body">
+                    <div className="card-body">
                       <p>
                         Chương trình học tập dài hạn 12 tháng hay 24 tháng dễ
                         dàng được Trẻ hấp thu hiệu quả chỉ với 20 phút tương tác
@@ -291,11 +299,11 @@ function BeexuList() {
                     </div>
                   </div>
                 </div>
-                <div class="card-view">
-                  <div class="card-header" id="">
+                <div className="card-view">
+                  <div className="card-header" id="">
                     <button
                       type="button"
-                      class="tabs-click collapsed"
+                      className="tabs-click collapsed"
                       data-toggle="collapse"
                       data-target="#tabsvideo-3"
                       aria-expanded="false"
@@ -306,11 +314,11 @@ function BeexuList() {
                   </div>
                   <div
                     id="tabsvideo-3"
-                    class="collapse"
+                    className="collapse"
                     aria-labelledby="headingThree"
                     data-parent="#faq-beexu-tabs"
                   >
-                    <div class="card-body">
+                    <div className="card-body">
                       <p>
                         Xây dựng nội dung cuộc thi và chia sẻ đến học viên cùng
                         đăng ký tham gia, tổng kết và trao giải ngay.
@@ -318,11 +326,11 @@ function BeexuList() {
                     </div>
                   </div>
                 </div>
-                <div class="card-view">
-                  <div class="card-header" id="">
+                <div className="card-view">
+                  <div className="card-header" id="">
                     <button
                       type="button"
-                      class="tabs-click collapsed"
+                      className="tabs-click collapsed"
                       data-toggle="collapse"
                       data-target="#tabsvideo-4"
                       aria-expanded="false"
@@ -333,11 +341,11 @@ function BeexuList() {
                   </div>
                   <div
                     id="tabsvideo-4"
-                    class="collapse"
+                    className="collapse"
                     aria-labelledby="headingTwo"
                     data-parent="#faq-beexu-tabs"
                   >
-                    <div class="card-body">
+                    <div className="card-body">
                       <p>
                         Chia sẻ tình hình học tập và hướng dẫn Phụ Huynh giúp
                         Trẻ rèn luyện thêm tại nhà thông qua chương trình bài
@@ -355,4 +363,4 @@ function BeexuList() {
   );
 }
 
-export default BeexuList;
+export default Beexu;

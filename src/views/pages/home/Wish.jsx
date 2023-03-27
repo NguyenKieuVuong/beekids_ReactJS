@@ -11,7 +11,7 @@ function Wish() {
             <div className="parents-wishes bg-1">
               <div className="parents-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-parents-wishes-1.png")}
+                  src={require("../../../assets/images/icon-parents-wishes-1.png")}
                   alt="Phát triển tư duy cho con"
                 />
               </div>
@@ -24,7 +24,7 @@ function Wish() {
             <div className="parents-wishes bg-2">
               <div className="parents-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-parents-wishes-2.png")}
+                  src={require("../../../assets/images/icon-parents-wishes-2.png")}
                   alt="Đồng hành cùng con"
                 />
               </div>
@@ -35,7 +35,7 @@ function Wish() {
             <div className="parents-wishes bg-3">
               <div className="parents-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-parents-wishes-3.png")}
+                  src={require("../../../assets/images/icon-parents-wishes-3.png")}
                   alt="Chủ động học tập"
                 />
               </div>
@@ -46,7 +46,7 @@ function Wish() {
             <div className="parents-wishes bg-4">
               <div className="parents-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-parents-wishes-4.png")}
+                  src={require("../../../assets/images/icon-parents-wishes-4.png")}
                   alt=""
                 />
               </div>
@@ -66,7 +66,7 @@ function Wish() {
             <div className="teacher-wishes">
               <div className="teacher-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-teacher-wishes-1.png")}
+                  src={require("../../../assets/images/icon-teacher-wishes-1.png")}
                   alt=""
                 />
               </div>
@@ -81,7 +81,7 @@ function Wish() {
             <div className="teacher-wishes">
               <div className="teacher-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-teacher-wishes-2.png")}
+                  src={require("../../../assets/images/icon-teacher-wishes-2.png")}
                   alt=""
                 />
               </div>
@@ -95,14 +95,14 @@ function Wish() {
             <div className="teacher-wishes">
               <div className="teacher-wishes__image">
                 <img
-                  src={require("../../assets/images/icon-teacher-wishes-3.png")}
+                  src={require("../../../assets/images/icon-teacher-wishes-3.png")}
                   alt=""
                 />
               </div>
               <div className="teacher-wishes__title">Theo dõi và đồng hành</div>
               <div className="teacher-wishes__summary">
                 Công cụ theo dõi, đánh giá cụ thể quá trình và kết quả học tập
-                của Trẻ 
+                của Trẻ
               </div>
             </div>
           </div>

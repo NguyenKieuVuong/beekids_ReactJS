@@ -1,54 +1,77 @@
 function DownloadAppCourse() {
   return (
     <>
-      {" "}
-      <section id="section-app" class="-bg-img-10">
-        <div class="container -wide">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.25s">
-              <div class="block-app">
-                <div class="block-main">
-                  <div class="block-row title">
+      <section id="section-app" className="-bg-img-10">
+        <div className="container -wide">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.25s">
+              <div className="block-app">
+                <div className="block-main">
+                  <div className="block-row title">
                     Bạn chưa chọn được Khóa học nào phù hợp ?
                   </div>
-                  <div class="block-row sumary">
+                  <div className="block-row sumary">
                     Hãy tải app <b>BKIDS</b> để cho bé trải nghiệm trước và lựa
                     chọn những Khóa học theo đúng nhu cầu của bé !
                   </div>
                 </div>
-                <div class="button mt-5 mb-5">
-                  <button type="button" class="btn btn-bigsize btn-beekids">
+                <div className="button mt-5 mb-5">
+                  <button type="button" className="btn btn-bigsize btn-beekids">
                     Trải nghiệm ngay
                   </button>
                 </div>
               </div>
-              <div class="list-download">
-                <div class="block-download">
-                  <div class="text">
-                    <img src="/images/store-android.png" /> CH Play
+              <div className="list-download">
+                <div className="block-download">
+                  <div className="text">
+                    <img
+                      src={require("../../assets/images/store-android.png")}
+                      alt=""
+                    />
+                    CH Play
                   </div>
-                  <img src="/images/ma-qr-ch.png" />
+                  <img
+                    src={require("../../assets/images/ma-qr-ch.png")}
+                    alt=""
+                  />
                 </div>
-                <div class="block-download">
-                  <div class="text">
-                    <img src="/images/store-apple.png" /> App Store
+                <div className="block-download">
+                  <div className="text">
+                    <img
+                      src={require("../../assets/images/store-apple.png")}
+                      alt=""
+                    />
+                    App Store
                   </div>
-                  <img src="/images/ma-qr-app.png" />
+                  <img
+                    src={require("../../assets/images/ma-qr-app.png")}
+                    alt=""
+                  />
                 </div>
-                <div class="block-download">
-                  <div class="text">
-                    <img src="/images/app-website.png" /> Website
+                <div className="block-download">
+                  <div className="text">
+                    <img
+                      src={require("../../assets/images/app-website.png")}
+                      alt=""
+                    />
+                    Website
                   </div>
-                  <img src="/images/ma-qr-web.png" />
+                  <img
+                    src={require("../../assets/images/ma-qr-web.png")}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div className="col-lg-6">
               <div
-                class="text-center mt-5 mt-lg-0 wow fadeInRight"
+                className="text-center mt-5 mt-lg-0 wow fadeInRight"
                 data-wow-delay="0.25s"
               >
-                <img src="/images/right-content-3.png" />
+                <img
+                  src={require("../../assets/images/right-content-3.png")}
+                  alt=""
+                />
               </div>
             </div>
           </div>

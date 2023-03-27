@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "animate.css";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.scss";
 import App from "./App";
@@ -12,6 +14,7 @@ import BeexuList from "./pages/Beexu";
 import Cart from "./pages/Cart";
 import AmbassadorList from "./pages/Ambassadors";
 import FAQs from "./pages/FAQs";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

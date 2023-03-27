@@ -158,8 +158,8 @@ function Footer() {
                     >
                       <img
                         className=""
-                        alt="Download App Button "
-                        src="/images/app-store-badge.png "
+                        alt="Download App Button " src={require("../../assets/images/app-store-badge.png")}
+                        
                       />
                     </a>
                   </div>

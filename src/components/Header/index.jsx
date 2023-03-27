@@ -3,30 +3,45 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Logo from "../../assets/images/logo.png";
-
+import { useEffect, useState } from "react";
 function Header() {
-  // const MenuScroll = () => {
-  //   window.addEventListener("scroll", (event) => {
-  //     if ${window.scrollTop} >=1 && 'scroll' : ""
-  //     //output.textContent = `scrollTop: ${window.scrollTop}`;
-  //   });
-  //   window.scroll(function () {
-  //     if (this.scrollTop() >= 20) {
-  //       // If page is scrolled more than 50px
-  //       ".header-style2".addClass("scroll");
-  //       "#return-to-top".fadeIn(200); // Fade in the arrow
-  //     } else {
-  //       ".header-style2".removeClass("scroll");
-  //       "#return-to-top".fadeOut(200); // Else fade out the arrow
-  //     }
-  //   });
-  // };
-  //const scroller = document.querySelector("#scroller");
-  //const output = document.querySelector("#output");
+  // The back-to-top button is hidden at the beginning
+  const [showButton, setShowButton] = useState(false);
+  const [stickMenu, setStickMenu] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 10) {
+        setShowButton(true);
+        setStickMenu(true);
+      } else {
+        setShowButton(false);
+        setStickMenu(false);
+      }
+    });
+  }, []);
+
+  // This function will scroll the window to the top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // for smoothly scrolling
+    });
+  };
 
   return (
     <>
-      <section className="header-style2 {}">
+      {showButton && (
+        <button
+          type="button"
+          onClick={scrollToTop}
+          id="return-to-top"
+          title="Scroll to Top"
+        >
+          <i className="fa fa-angle-up"></i>
+        </button>
+      )}
+
+      <section className={stickMenu ? "header-style2 scroll" : "header-style2"}>
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand to="/">

@@ -3,7 +3,7 @@ function Reality() {
     <section id="reality" className="">
       <div className="container -wide">
         <div className="row justify-content-center">
-          <div className="col-lg-6 wow fadeInDown">
+          <div className="col-lg-6 animate__animated animate__fadeInLeft">
             <div className="block-title">
               <div className="title-header text-uppercase">Thực trạng</div>
               <h4 className="title-title">
@@ -14,7 +14,7 @@ function Reality() {
               <div className="reality-child">
                 <div className="reality-child__image">
                   <img
-                    src={require("../../assets/images/icon-reality-1.png")}
+                    src={require("../../../assets/images/icon-reality-1.png")}
                     alt="Dễ chán, khó tập trung, khó hình thành thói quen rèn luyện tại nhà"
                   />
                 </div>
@@ -26,7 +26,7 @@ function Reality() {
               <div className="reality-child">
                 <div className="reality-child__image">
                   <img
-                    src={require("../../assets/images/icon-reality-2.png")}
+                    src={require("../../../assets/images/icon-reality-2.png")}
                     alt="Không có hệ thống để học tập, rèn luyện và khám phá cùng nhau"
                   />
                 </div>
@@ -38,7 +38,7 @@ function Reality() {
               <div className="reality-child">
                 <div className="reality-child__image">
                   <img
-                    src={require("../../assets/images/icon-reality-3.png")}
+                    src={require("../../../assets/images/icon-reality-3.png")}
                     alt="Dễ chán, khó tập trung, khó hình thành thói quen rèn luyện tại nhà"
                   />
                 </div>
@@ -49,16 +49,10 @@ function Reality() {
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-6 wow fadeInLeft animated"
-            data-wow-delay="0.5s"
-          >
-            <div
-              className="text-center mt-5 mt-lg-3 wow fadeInRight animated"
-              data-wow-delay="0.25s"
-            >
+          <div className="col-lg-6 wow  animate__animated animate__fadeInRight">
+            <div className="text-center mt-5 mt-lg-3">
               <img
-                src={require("../../assets/images/img-reality.png")}
+                src={require("../../../assets/images/img-reality.png")}
                 alt="Thực trạng trẻ trong giai đoạn từ 4 - 10 tuổi"
               />
             </div>

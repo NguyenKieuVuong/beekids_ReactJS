@@ -18,7 +18,9 @@
 
 @import "_mixin.scss";
 @import "_variables.scss";
-
+:root {
+  --animate-delay: 0.5s;
+}
 body {
   font-family: $primary-font;
   color: $text-color;
@@ -285,7 +287,21 @@ button:focus {
 .loading-gif.active {
   display: block;
 }
+.form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
 
+.form-row > .col,
+.form-row > [class*="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .btn-beekids {
   background: rgb(255, 195, 77);
   background: linear-gradient(
@@ -362,7 +378,53 @@ button:focus {
     transform: scale(1);
   }
 }
+/* Start=BackToTop*/
+#return-to-top {
+  z-index: 999;
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  background: rgb(0, 0, 0);
+  background: #fccc3a;
+  width: 45px;
+  height: 45px;
+  display: block;
+  border: 0px;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    width: 30px;
+    margin-left: -15px;
+    text-align: center;
+    top: 7px;
+    font-size: 27px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  &:hover {
+    background: rgba(0, 0, 0, 0.9);
+    i {
+      color: #fccc3a;
+      top: 10px;
+    }
+  }
+}
 
+/*End=BackToTop*/
 .block-card {
   &.product {
     .block-main {

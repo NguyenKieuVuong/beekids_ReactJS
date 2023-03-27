@@ -7,13 +7,13 @@ function SolutionGamification() {
           <h4 className="title-title">Nền tảng Gamification</h4>
         </div>
         <div className="row align-items-center">
-          <div className="col-lg-6 wow fadeInDown">
+          <div className="col-lg-6 animate__animated animate__fadeInLeft">
             <div className="row justify-content-center">
-              <div className="col-6 wow fadeInDown">
+              <div className="col-6 ">
                 <div className="gamification-item">
                   <div className="gamification-item__image">
                     <img
-                      src={require("../../assets/images/icon-gamification-1.png")}
+                      src={require("../../../assets/images/icon-gamification-1.png")}
                       alt=""
                     />
                   </div>
@@ -28,11 +28,11 @@ function SolutionGamification() {
                   </div>
                 </div>
               </div>
-              <div className="col-6 wow fadeInDown">
+              <div className="col-6 ">
                 <div className="gamification-item">
                   <div className="gamification-item__image">
                     <img
-                      src={require("../../assets/images/icon-gamification-2.png")}
+                      src={require("../../../assets/images/icon-gamification-2.png")}
                       alt=""
                     />
                   </div>
@@ -45,11 +45,11 @@ function SolutionGamification() {
                   </div>
                 </div>
               </div>
-              <div className="col-6 wow fadeInDown">
+              <div className="col-6 ">
                 <div className="gamification-item">
                   <div className="gamification-item__image">
                     <img
-                      src={require("../../assets/images/icon-gamification-3.png")}
+                      src={require("../../../assets/images/icon-gamification-3.png")}
                       alt=""
                     />
                   </div>
@@ -61,11 +61,11 @@ function SolutionGamification() {
                   </div>
                 </div>
               </div>
-              <div className="col-6 wow fadeInDown">
+              <div className="col-6 ">
                 <div className="gamification-item">
                   <div className="gamification-item__image">
                     <img
-                      src={require("../../assets/images/icon-gamification-4.png")}
+                      src={require("../../../assets/images/icon-gamification-4.png")}
                       alt=""
                     />
                   </div>
@@ -81,13 +81,10 @@ function SolutionGamification() {
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-6 wow fadeInLeft animated"
-            data-wow-delay="0.5s"
-          >
+          <div className="col-lg-6 animate__animated animate__fadeInRight">
             <div className="text-center">
               <img
-                src={require("../../assets/images/right-content-3.png")}
+                src={require("../../../assets/images/right-content-3.png")}
                 alt=""
               />
             </div>
@@ -98,36 +95,39 @@ function SolutionGamification() {
               <div className="block-download">
                 <div className="text">
                   <img
-                    src={require("../../assets/images/store-android.png")}
+                    src={require("../../../assets/images/store-android.png")}
                     alt=""
                   />
                   CH Play
                 </div>
-                <img src={require("../../assets/images/ma-qr-ch.png")} alt="" />
-              </div>
-              <div className="block-download">
-                <div className="text">
-                  <img
-                    src={require("../../assets/images/store-apple.png")}
-                    alt=""
-                  />
-                  App Store
-                </div>
                 <img
-                  src={require("../../assets/images/ma-qr-app.png")}
+                  src={require("../../../assets/images/ma-qr-ch.png")}
                   alt=""
                 />
               </div>
               <div className="block-download">
                 <div className="text">
                   <img
-                    src={require("../../assets/images/app-website.png")}
+                    src={require("../../../assets/images/store-apple.png")}
+                    alt=""
+                  />
+                  App Store
+                </div>
+                <img
+                  src={require("../../../assets/images/ma-qr-app.png")}
+                  alt=""
+                />
+              </div>
+              <div className="block-download">
+                <div className="text">
+                  <img
+                    src={require("../../../assets/images/app-website.png")}
                     alt=""
                   />
                   Website
                 </div>
                 <img
-                  src={require("../../assets/images/ma-qr-web.png")}
+                  src={require("../../../assets/images/ma-qr-web.png")}
                   alt=""
                 />
               </div>

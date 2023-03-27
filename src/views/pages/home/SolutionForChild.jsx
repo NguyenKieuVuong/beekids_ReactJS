@@ -8,7 +8,7 @@ function SolutionForChild() {
         </div>
         <div className="row align-items-center">
           <div
-            className="col-lg-6 wow fadeInLeft animated"
+            className="col-lg-6 animate__animated animate__fadeInLeft"
             data-wow-delay="0.5s"
           >
             <div
@@ -16,12 +16,12 @@ function SolutionForChild() {
               data-wow-delay="0.25s"
             >
               <img
-                src={require("../../assets/images/img-solution-for-child.png")}
+                src={require("../../../assets/images/img-solution-for-child.png")}
                 alt=""
               />
             </div>
           </div>
-          <div className="col-lg-6 wow fadeInDown">
+          <div className="col-lg-6 animate__animated animate__fadeInRight">
             <div className="solution-content">
               <div className="solution-content__title">
                 Tập trung vào phát triển tư duy và những kỹ năng thế kỉ 21:
@@ -30,7 +30,7 @@ function SolutionForChild() {
               <div className="solution-content__item">
                 <div className="-icon">
                   <img
-                    src={require("../../assets/images/ico-stick.png")}
+                    src={require("../../../assets/images/ico-stick.png")}
                     alt="Nền tảng Giáo dục dành cho trẻ"
                   />
                 </div>
@@ -48,7 +48,7 @@ function SolutionForChild() {
               <div className="solution-content__item">
                 <div className="-icon">
                   <img
-                    src={require("../../assets/images/ico-stick.png")}
+                    src={require("../../../assets/images/ico-stick.png")}
                     alt="Nền tảng Giáo dục dành cho trẻ"
                   />
                 </div>
@@ -63,7 +63,7 @@ function SolutionForChild() {
               <div className="solution-content__item">
                 <div className="-icon">
                   <img
-                    src={require("../../assets/images/ico-stick.png")}
+                    src={require("../../../assets/images/ico-stick.png")}
                     alt="Nền tảng Giáo dục dành cho trẻ"
                   />
                 </div>
@@ -80,31 +80,31 @@ function SolutionForChild() {
             <div className="logo-list">
               <div className="logo-list__image">
                 <img
-                  src={require("../../assets/images/icon-logo-solution-1.png")}
+                  src={require("../../../assets/images/icon-logo-solution-1.png")}
                   alt="Nền tảng Giáo dục dành cho trẻ"
                 />
               </div>
               <div className="logo-list__image">
                 <img
-                  src={require("../../assets/images/icon-logo-solution-2.png")}
+                  src={require("../../../assets/images/icon-logo-solution-2.png")}
                   alt="Nền tảng Giáo dục dành cho trẻ"
                 />
               </div>
               <div className="logo-list__image">
                 <img
-                  src={require("../../assets/images/icon-logo-solution-3.png")}
+                  src={require("../../../assets/images/icon-logo-solution-3.png")}
                   alt="Nền tảng Giáo dục dành cho trẻ"
                 />
               </div>
               <div className="logo-list__image">
                 <img
-                  src={require("../../assets/images/icon-logo-solution-4.png")}
+                  src={require("../../../assets/images/icon-logo-solution-4.png")}
                   alt="Nền tảng Giáo dục dành cho trẻ"
                 />
               </div>
               <div className="logo-list__image">
                 <img
-                  src={require("../../assets/images/icon-logo-solution-5.png")}
+                  src={require("../../../assets/images/icon-logo-solution-5.png")}
                   alt="Nền tảng Giáo dục dành cho trẻ"
                 />
               </div>
