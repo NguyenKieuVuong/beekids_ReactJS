@@ -2,7 +2,7 @@ function Result() {
   return (
     <section id="result" className="-bg-img-17">
       <div className="container result-beekids -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center" data-aos="fade-down">
           <h4 className="title-title text-uppercase">Kết quả đạt được</h4>
           <div className="title-summary">
             Trong suốt 3 năm vận hành, Beekids tự hào vì đã góp một phần sức lực
@@ -11,26 +11,26 @@ function Result() {
           </div>
         </div>
         <div className="row mt-5 mb-5">
-          <div className="col">
+          <div className="col" data-aos="zoom-in">
             <img
               src={require("../../../assets/images/img-result-1.png")}
               alt=""
             />
           </div>
-          <div className="col">
+          <div className="col" data-aos="zoom-in">
             <img
               src={require("../../../assets/images/img-result-2.png")}
               alt=""
             />
           </div>
-          <div className="col">
+          <div className="col" data-aos="zoom-in">
             <img
               src={require("../../../assets/images/img-result-3.png")}
               alt=""
               className="p-md-2"
             />
           </div>
-          <div className="col">
+          <div className="col" data-aos="zoom-in">
             <img
               src={require("../../../assets/images/img-result-4.png")}
               alt=""
@@ -40,12 +40,12 @@ function Result() {
         </div>
       </div>
       <div className="container cooperate -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center" data-aos="fade-down">
           <div className="title-header text-uppercase">hợp tác</div>
           <h4 className="title-title">KHÁCH HÀNG MỤC TIÊU</h4>
         </div>
         <div className="row mb-4">
-          <div className="col-md-6 wow fadeInDown">
+          <div className="col-md-6" data-aos="fade-right">
             <div className="target-customers">
               <div className="target-customers__title">Phụ huynh</div>
               <div className="target-customers__item">
@@ -93,7 +93,7 @@ function Result() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 wow fadeInDown">
+          <div className="col-md-6" data-aos="fade-left">
             <div className="target-customers">
               <div className="target-customers__title">
                 Chuyên gia tạo nội dung học tập
@@ -143,11 +143,11 @@ function Result() {
         </div>
       </div>
       <div className="container roadmap -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center" data-aos="fade-down">
           <h4 className="title-title">LỘ TRÌNH PHÁT TRIỂN</h4>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 col-lg-4 wow fadeInDown">
+          <div className="col-md-6 col-lg-4" data-aos="fade-right">
             <div className="roadmap">
               <img
                 src={require("../../../assets/images/bg-roadmap.png")}
@@ -169,7 +169,7 @@ function Result() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 wow fadeInDown">
+          <div className="col-md-6 col-lg-4" data-aos="fade-right">
             <div className="roadmap">
               <img
                 src={require("../../../assets/images/bg-roadmap.png")}
@@ -195,7 +195,7 @@ function Result() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 wow fadeInDown">
+          <div className="col-md-6 col-lg-4" data-aos="fade-right">
             <div className="roadmap">
               <img
                 src={require("../../../assets/images/bg-roadmap.png")}

@@ -6,7 +6,7 @@ function Vision() {
       <div className="container -wide">
         <div className="row justify-content-center">
           <div className="col-lg-9">
-            <div className="block-title text-center animate__animated animate__fadeInDown">
+            <div className="block-title text-center" data-aos="fade-down">
               <div className="title-header">TẦM NHÌN VÀ KHÁT VỌNG</div>
               <h4 className="title-title">
                 Kết nối và hỗ trợ phát triển
@@ -24,11 +24,7 @@ function Vision() {
         </div>
       </div>
       <img src={stick} className="img-stick" alt="" />
-      <img
-        src={image}
-        className="img-bottom animate__animated animate__fadeInDown"
-        alt=""
-      />
+      <img src={image} className="img-bottom  " alt="" data-aos="fade-down" />
     </section>
   );
 }

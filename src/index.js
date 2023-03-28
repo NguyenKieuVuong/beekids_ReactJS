@@ -1,21 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import "animate.css";
-import "../node_modules/font-awesome/css/font-awesome.min.css";
+import "@icon/icofont/icofont.css";
+import "font-awesome/css/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.scss";
+
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/Home";
-import CourseList from "./pages/Courses";
+import Courses from "./pages/Courses";
 import Contests from "./pages/Contests";
-import BeexuList from "./pages/Beexu";
+import Beexu from "./pages/Beexu";
 import Cart from "./pages/Cart";
 import AmbassadorList from "./pages/Ambassadors";
 import FAQs from "./pages/FAQs";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -24,9 +30,10 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="cuoc-thi" element={<Contests />} />
-          <Route path="khoa-hoc" element={<CourseList />} />
-          <Route path="goi-beexu" element={<BeexuList />} />
+          <Route path="khoa-hoc" element={<Courses />} />
+          <Route path="goi-beexu" element={<Beexu />} />
           <Route path="faqs" element={<FAQs />} />
+          <Route path="gio-hang" element={<Cart />} />
           <Route path="dai-su" element={<AmbassadorList />} />
         </Route>
       </Routes>

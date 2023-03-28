@@ -3,7 +3,7 @@ function Advantage() {
     <section id="advantage" className="-bg-img-16">
       <div className="container -wide">
         <div className="row mb-5">
-          <div className="col-lg-6 animate__animated animate__fadeInDown animate__delay-1s">
+          <div className="col-lg-6" data-aos-delay="500" data-aos="fade-down">
             <div className="text-center mb-3 mb-lg-0">
               <img
                 src={require("../../../assets/images/img-advantage-1.png")}
@@ -11,7 +11,7 @@ function Advantage() {
               />
             </div>
           </div>
-          <div className="col-lg-6 animate__animated animate__fadeInDown">
+          <div className="col-lg-6 " data-aos="fade-down">
             <div className="block-title">
               <h4 className="title-title">Thói quen chủ động, rèn luyện</h4>
             </div>
@@ -29,7 +29,11 @@ function Advantage() {
           </div>
         </div>
         <div className="row mb-5">
-          <div className="col-lg-6 animate__fadeInLeft animate__animated  animate__delay-1s order-lg-1">
+          <div
+            className="col-lg-6 order-lg-1"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
             <div className="text-center mb-3 mt-lg-0">
               <img
                 src={require("../../../assets/images/img-advantage-2.png")}
@@ -37,7 +41,7 @@ function Advantage() {
               />
             </div>
           </div>
-          <div className="col-lg-6 animate__animated animate__fadeInRight order-lg-0">
+          <div className="col-lg-6 order-lg-0" data-aos="fade-left">
             <div className="block-title">
               <h4 className="title-title">
                 Chơi gì cũng vui, học gì cũng giỏi
@@ -58,7 +62,7 @@ function Advantage() {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s ">
+          <div className="col-lg-6" data-aos="fade-right" data-aos-delay="500">
             <div className="text-center mb-3 mb-lg-0">
               <img
                 src={require("../../../assets/images/img-advantage-3.png")}
@@ -66,7 +70,7 @@ function Advantage() {
               />
             </div>
           </div>
-          <div className="col-lg-6 animate__animated animate__fadeInRight">
+          <div className="col-lg-6" data-aos="fade-left">
             <div className="block-title">
               <h4 className="title-title">Kết nối toàn cầu</h4>
             </div>

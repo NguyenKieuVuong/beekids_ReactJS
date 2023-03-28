@@ -2,12 +2,12 @@ function SolutionGamification() {
   return (
     <section id="solution-gamification" className="">
       <div className="container -wide">
-        <div className="block-title">
+        <div className="block-title" data-aos="fade-down">
           <div className="title-header">GIẢI PHÁP</div>
           <h4 className="title-title">Nền tảng Gamification</h4>
         </div>
         <div className="row align-items-center">
-          <div className="col-lg-6 animate__animated animate__fadeInLeft">
+          <div className="col-lg-6" data-aos="fade-right">
             <div className="row justify-content-center">
               <div className="col-6 ">
                 <div className="gamification-item">
@@ -81,7 +81,7 @@ function SolutionGamification() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 animate__animated animate__fadeInRight">
+          <div className="col-lg-6" data-aos="fade-left">
             <div className="text-center">
               <img
                 src={require("../../../assets/images/right-content-3.png")}

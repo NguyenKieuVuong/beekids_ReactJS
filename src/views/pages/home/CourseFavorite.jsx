@@ -35,7 +35,7 @@ function CourseFavorite() {
       <div className="container -wide">
         <div className="row">
           <div className="col-12 col-md-10 offset-md-1">
-            <div className="block-title text-center animate__animated animate__fadeInDown">
+            <div className="block-title text-center " data-aos="fade-down">
               <div className="title-header text-uppercase">Khóa học</div>
               <h4 className="title-title">
                 CÁC KHÓA HỌC HÀNG ĐẦU DÀNH CHO TRẺ
@@ -44,7 +44,7 @@ function CourseFavorite() {
           </div>
         </div>
       </div>
-      <div id="slide-course" className="animate__animated animate__fadeInDown">
+      <div id="slide-course" data-aos="fade-down">
         <Slider {...SlideCourse}>
           <div className="image">
             <img src={require("../../../assets/images/course-1.png")} alt="" />
@@ -61,7 +61,7 @@ function CourseFavorite() {
         </Slider>
       </div>
 
-      <div className="text-center mt-5 animate__animated animate__fadeInDown">
+      <div className="text-center mt-5" data-aos="fade-down">
         <button type="button" className="btn btn-bigsize btn-beekids">
           Khám phá ngay
         </button>

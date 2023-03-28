@@ -3,7 +3,7 @@ function Reality() {
     <section id="reality" className="">
       <div className="container -wide">
         <div className="row justify-content-center">
-          <div className="col-lg-6 animate__animated animate__fadeInLeft">
+          <div className="col-lg-6" data-aos="fade-right">
             <div className="block-title">
               <div className="title-header text-uppercase">Thực trạng</div>
               <h4 className="title-title">
@@ -49,7 +49,7 @@ function Reality() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 wow  animate__animated animate__fadeInRight">
+          <div className="col-lg-6" data-aos="fade-left">
             <div className="text-center mt-5 mt-lg-3">
               <img
                 src={require("../../../assets/images/img-reality.png")}

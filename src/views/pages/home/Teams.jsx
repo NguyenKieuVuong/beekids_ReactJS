@@ -30,13 +30,13 @@ function Teams() {
   return (
     <>
       <section id="teams">
-        <div className="block-title text-center animate__animated animate__fadeInDown">
+        <div className="block-title text-center " data-aos="fade-down">
           <div className="title-header text-uppercase">Đội ngũ</div>
           <h4 className="title-title">
             VỚI NHỮNG CON NGƯỜI DÀY DẶN KINH NGHIỆM
           </h4>
         </div>
-        <div id="slide-teams" className="animate__animated animate__fadeInDown">
+        <div id="slide-teams" data-aos="fade-down">
           <Slider {...teams}>
             <TeamInfo
               image={require("../../../assets/images/chuyengia-Trung.jpg")}

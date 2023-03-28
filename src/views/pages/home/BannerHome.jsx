@@ -32,7 +32,11 @@ const BannerHome = () => {
       <div className="container -wide">
         <div className="row">
           <div className="col-sm-12 ">
-            <div className="header-content animate__animated animate__fadeInDown">
+            <div
+              className="header-content"
+              data-aos="fade-down"
+              data-aos-delay="50"
+            >
               <h2 className="header-content__title">
                 Nền tảng
                 <span>

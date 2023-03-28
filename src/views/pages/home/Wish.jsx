@@ -2,12 +2,12 @@ function Wish() {
   return (
     <section id="wish" className="">
       <div className="container -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center" data-aos="fade-down">
           <div className="title-header">MONG MUỐN</div>
           <h4 className="title-title">Mong muốn của Phụ Huynh</h4>
         </div>
         <div className="row justify-content-center align-items-center mb-4">
-          <div className="col-sm-6 col-lg-3 wow fadeInDown">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-down">
             <div className="parents-wishes bg-1">
               <div className="parents-wishes__image">
                 <img
@@ -20,7 +20,7 @@ function Wish() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3 wow fadeInDown">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-down">
             <div className="parents-wishes bg-2">
               <div className="parents-wishes__image">
                 <img
@@ -31,7 +31,7 @@ function Wish() {
               <div className="parents-wishes__title">Đồng hành cùng con</div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3 wow fadeInDown">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-down">
             <div className="parents-wishes bg-3">
               <div className="parents-wishes__image">
                 <img
@@ -42,7 +42,7 @@ function Wish() {
               <div className="parents-wishes__title">Chủ động học tập</div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3 wow fadeInDown">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-down">
             <div className="parents-wishes bg-4">
               <div className="parents-wishes__image">
                 <img
@@ -58,11 +58,11 @@ function Wish() {
         </div>
       </div>
       <div className="container -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center" data-aos="fade-down">
           <h4 className="title-title">Mong muốn của Giáo Viên</h4>
         </div>
         <div className="row justify-content-center align-items-center">
-          <div className="col-sm-6 col-md-4 wow fadeInDown">
+          <div className="col-sm-6 col-md-4" data-aos="zoom-in">
             <div className="teacher-wishes">
               <div className="teacher-wishes__image">
                 <img
@@ -77,7 +77,7 @@ function Wish() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 wow fadeInDown">
+          <div className="col-sm-6 col-md-4" data-aos="zoom-in">
             <div className="teacher-wishes">
               <div className="teacher-wishes__image">
                 <img
@@ -91,7 +91,7 @@ function Wish() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4 wow fadeInDown">
+          <div className="col-sm-6 col-md-4" data-aos="zoom-in">
             <div className="teacher-wishes">
               <div className="teacher-wishes__image">
                 <img

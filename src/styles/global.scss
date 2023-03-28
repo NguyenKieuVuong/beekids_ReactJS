@@ -388,6 +388,7 @@ button:focus {
   background: #fccc3a;
   width: 45px;
   height: 45px;
+  padding: 0;
   display: block;
   border: 0px;
   text-decoration: none;
@@ -403,11 +404,10 @@ button:focus {
     color: #fff;
     margin: 0;
     position: relative;
-    left: 50%;
-    width: 30px;
-    margin-left: -15px;
+    left: 0;
+    width: 45px;
     text-align: center;
-    top: 7px;
+    top: 0;
     font-size: 27px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -419,7 +419,7 @@ button:focus {
     background: rgba(0, 0, 0, 0.9);
     i {
       color: #fccc3a;
-      top: 10px;
+      top: 3px;
     }
   }
 }
@@ -1374,6 +1374,69 @@ button:focus {
   }
 }
 /*END=header-style2=*/
+/*menu-cart*/
+.menu-cart {
+  margin-right: 10px;
+}
+
+.menu-cart .dropdown-header {
+  padding: 0.5rem 0;
+  font-weight: normal;
+}
+
+.menu-cart .nav-link {
+  /* line-height: 23px; */
+  font-size: 1.5rem !important;
+  color: #ffa20c !important;
+  padding: 0 !important;
+  position: relative;
+  text-align: center;
+}
+
+.menu-cart .nav-link .icon {
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 1.5rem;
+  color: #273240;
+}
+
+.menu-cart .nav-link .number {
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  color: #000;
+  font-size: 12px;
+  background: #fccc3a;
+  right: -3px;
+}
+
+.menu-cart .dropdown-menu .dropdown-item {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .header-style2 .navbar-light .navbar-nav.menu-cart .nav-link {
+    border-top-width: 0;
+  }
+
+  .menu-cart {
+    margin-right: 0px;
+    position: absolute;
+    top: 14px;
+    right: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-cart .dropdown-menu {
+    right: -20px !important;
+  }
+}
 /*Responsive*/
 @media only screen and (min-width: 576px) {
 }

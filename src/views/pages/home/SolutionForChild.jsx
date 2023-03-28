@@ -2,26 +2,20 @@ function SolutionForChild() {
   return (
     <section id="solution-for-child" className="-bg-img-15">
       <div className="container -wide">
-        <div className="block-title text-center">
+        <div className="block-title text-center" data-aos="fade-down">
           <div className="title-header text-uppercase">Giới thiệu</div>
           <h4 className="title-title">Nền tảng Giáo dục dành cho trẻ</h4>
         </div>
         <div className="row align-items-center">
-          <div
-            className="col-lg-6 animate__animated animate__fadeInLeft"
-            data-wow-delay="0.5s"
-          >
-            <div
-              className="text-center mb-5 mb-lg-0 wow fadeInRight animated"
-              data-wow-delay="0.25s"
-            >
+          <div className="col-lg-6 " data-aos="fade-right">
+            <div className="text-center mb-5 mb-lg-0" data-aos="fade-left">
               <img
                 src={require("../../../assets/images/img-solution-for-child.png")}
                 alt=""
               />
             </div>
           </div>
-          <div className="col-lg-6 animate__animated animate__fadeInRight">
+          <div className="col-lg-6" data-aos="fade-left">
             <div className="solution-content">
               <div className="solution-content__title">
                 Tập trung vào phát triển tư duy và những kỹ năng thế kỉ 21:
@@ -76,7 +70,7 @@ function SolutionForChild() {
               </div>
             </div>
           </div>
-          <div className="col-lg-12 wow fadeInDown">
+          <div className="col-lg-12" data-aos="fade-down">
             <div className="logo-list">
               <div className="logo-list__image">
                 <img

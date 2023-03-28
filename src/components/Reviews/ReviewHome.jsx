@@ -7,7 +7,7 @@ function ReviewHome() {
         <div className="container -wide">
           <div className="row align-items-center">
             <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-              <div className="block-title text-center wow fadeInDown">
+              <div className="block-title text-center" data-aos="fade-down">
                 <div className="title-header text-uppercase">Cảm nhận</div>
                 <h4 className="title-title">
                   Xem các khách hàng của chúng tôi đã trải nghiệm như thế nào về
@@ -16,10 +16,7 @@ function ReviewHome() {
               </div>
             </div>
             <div className="col-lg-6 col-xl-5">
-              <div
-                className="block-video mb-5 mb-lg-0 wow fadeInLeft"
-                data-wow-delay="0.25s"
-              >
+              <div className="block-video mb-5 mb-lg-0" data-aos="fade-right">
                 <Ratio aspectRatio="16x9">
                   <iframe
                     className="embed-responsive-item"
@@ -31,10 +28,7 @@ function ReviewHome() {
                 </Ratio>
               </div>
             </div>
-            <div
-              className="col-lg-6 col-xl-7 wow fadeInRight"
-              data-wow-delay="0.25s"
-            >
+            <div className="col-lg-6 col-xl-7" data-aos="fade-left">
               <ReviewSlide />
             </div>
           </div>
@@ -42,7 +36,7 @@ function ReviewHome() {
             Đã được hơn 1000 giáo viên, phụ huynh và khách hàng tin tưởng và sử
             dụng chất lượng Beekids trong quá trình dạy con
           </div>
-          <div className="logo-list">
+          <div className="logo-list" data-aos="fade-down">
             <div className="row justify-content-center row-1">
               <div className="col-3">
                 <div className="logo-item">
